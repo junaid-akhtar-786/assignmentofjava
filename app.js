@@ -939,25 +939,51 @@
 
 // Chapter No 17-20
 
+
+
+// Q1
+
+// var arr = [[],[],[]];
+
+
+// Q2
+
+// var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+
+// for( i = 0; i<arr.length; i++ ){
+// document.write(arr[i].join(" ") + " <br /> " )
+// }
+
+
+
+
 // Q3
 
 // var number = [1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10];
 
 // for(var i = 0; i < number.length; i++ ){
-
 // document.write(i + "<br>")
-
-
 // }
+
 
 // Q4
 
-// var table = prompt("Enter Your Table");
-// var length = prompt("Enter Your length");
-// for(i = 1; i <= length; i++)
-//  document.write(table + " X " +i+ " = " +(i * table) + "<br>");
+// var a = prompt("Enter Your Table");
+// var b = prompt("Enter Your Multipilacation Number");
+// for(i = 1; i <= b; i++){
+//  document.write(a + " X " + i + " = " +(a*i) + "<br>");
+// }
+
 
 // Q5
 
+// var fruits = ["apple", "banana", "mango", "orange","strawberry"];
+    
+// for(var i = 0; i < fruits.length; i++ ){
+//  document.write(fruits[i] + "<br>")
+// }
+// document.write("<br>"+ "<br>"+ "<br>"+ "<br>")
 
-
+// for(var j = 0; j < fruits.length; j++ ){
+//     document.write("Element at index" +" "+ j +" "+ "is" +" "+ fruits[j] + "<br>")
+//    }
